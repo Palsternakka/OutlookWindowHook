@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OlkWindowHook.Dll", "OlkWindowHook.Dll\OlkWindowHook.Dll.vcxproj", "{E6A8A975-6C68-41A4-B464-B9F5D04F604E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OlkWindowHook.Exe", "OlkWindowHook.Exe\OlkWindowHook.Exe.vcxproj", "{62545997-3CC3-471C-9DF0-6033E469A3B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E} = {E6A8A975-6C68-41A4-B464-B9F5D04F604E}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OlkWindowHook.Installer", "OlkWindowHook.Installer\OlkWindowHook.Installer.vdproj", "{F6CE297B-9A72-409D-8F88-BFAA6B51EA50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Debug|x64.ActiveCfg = Debug|x64
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Debug|x64.Build.0 = Debug|x64
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Debug|x86.Build.0 = Debug|Win32
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Release|x64.ActiveCfg = Release|x64
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Release|x64.Build.0 = Release|x64
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Release|x86.ActiveCfg = Release|Win32
+		{E6A8A975-6C68-41A4-B464-B9F5D04F604E}.Release|x86.Build.0 = Release|Win32
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Debug|x64.ActiveCfg = Debug|x64
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Debug|x64.Build.0 = Debug|x64
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Debug|x86.Build.0 = Debug|Win32
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Release|x64.ActiveCfg = Release|x64
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Release|x64.Build.0 = Release|x64
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Release|x86.ActiveCfg = Release|Win32
+		{62545997-3CC3-471C-9DF0-6033E469A3B8}.Release|x86.Build.0 = Release|Win32
+		{F6CE297B-9A72-409D-8F88-BFAA6B51EA50}.Debug|x64.ActiveCfg = Debug
+		{F6CE297B-9A72-409D-8F88-BFAA6B51EA50}.Debug|x86.ActiveCfg = Debug
+		{F6CE297B-9A72-409D-8F88-BFAA6B51EA50}.Release|x64.ActiveCfg = Release
+		{F6CE297B-9A72-409D-8F88-BFAA6B51EA50}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36C29712-12E8-4352-B0D5-86C787F2B318}
+	EndGlobalSection
+EndGlobal
